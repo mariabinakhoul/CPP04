@@ -1,10 +1,10 @@
-NAME = polymorphism
+NAME = polybrain
 
 COMP = c++
 
 FLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRC = main.cpp Animal.cpp Cat.cpp Dog.cpp WrongAnimal.cpp WrongCat.cpp
+SRC = main.cpp Animal.cpp Cat.cpp Dog.cpp WrongAnimal.cpp WrongCat.cpp Brain.cpp
 
 OBJS = $(addprefix objs/, $(SRC:.cpp=.o))
 
